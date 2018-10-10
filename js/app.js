@@ -204,10 +204,10 @@ function timer() {
 
         t.textContent =				//timers content display
           (minutes ?
-            minutes > 9 ? minutes + "Mins" : "0" + minutes + "Mins" :
-            "00Mins") +
-          ":" +
-          (seconds > 9 ? seconds + "Secs" : "0" + seconds + "Secs");
+            minutes > 9 ? minutes + " Mins " : "0" + minutes + " Mins " :
+            "00 Mins") +
+          " : " +
+          (seconds > 9 ? seconds + " Secs " : "0" + seconds + " Secs ");
       })();
     } else {
       clearInterval(time);				//stoping the timer
