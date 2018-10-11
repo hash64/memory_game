@@ -3,18 +3,24 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Dependency](#dependency)
+* [Game Link](#gameLink)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+Its the Matching Game,Where users has to match 8 pairs from 16 cards randomly shuffled
 
-To get started, open `js/app.js` and start building out the app's functionality
+1.When User click a card, the timers starts ticking 
+2.All pairs are matched, timer stops
+3.Take a note of star rating, be sure to complete game in less moves to get more star rating
+4.On winning a popup appears to congratulate you 
+5.If match not found, the cards get close
+6.If user wants to play again, he/she just need to click the restart button [Note: previous data will be lost, new game will start] 
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Dependency
 
-## Contributing
+Projects higly depend on Bootstrap CDN (CSS,Jquery) and Google Fonts , to look stylish and attractive
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Game Link
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Here is the Game link to play https://hash64.github.io/Memory-Game/
