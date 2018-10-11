@@ -83,7 +83,7 @@ function playGame(){
 	      		timer();
 	    	}
 			// console.log(card);
-			if(!card.classList.contains('open') && !card.classList.contains('show') && !card.classList.contains('match')&& openCards.length < 2 )
+			if(!card.classList.contains('open') && !card.classList.contains('show') && !card.classList.contains('match'))
 			{
 
 				openCards.push(card);
