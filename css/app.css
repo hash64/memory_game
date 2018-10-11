@@ -29,6 +29,7 @@ body {
 }
 
 h1 {
+    margin:20px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
@@ -38,7 +39,7 @@ h1 {
  */
 
 .deck {
-    width: 660px;
+    width: 680px;
     min-height: 680px;
     background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
     padding: 32px;
@@ -102,8 +103,9 @@ h1 {
 
 .score-panel {
     text-align: left;
-    width: 345px;
+    width: 450px;
     margin-bottom: 10px;
+    font-size:140%;
 }
 
 .score-panel .stars {
