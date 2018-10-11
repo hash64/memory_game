@@ -23,4 +23,4 @@ Projects higly depend on Bootstrap CDN (CSS,Jquery) and Google Fonts , to look s
 
 ## Game Link
 
-Here is the Game link to play https://hash64.github.io/Memory-Game/
+Here is the Game link to play https://hash64.github.io/memory-Game/
